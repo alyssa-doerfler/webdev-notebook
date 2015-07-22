@@ -9,7 +9,44 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+article {
+  background-color: #CCCCCC;
+  //border was solid grey
+  border: 3px #006699;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-left: 0%;
+  padding: 1rem;
+  width: 20rem;
+}
+.float {
 
+    float: right;
+    display: inline-block;
+}
+
+.redText {
+  color: #006699;
+}
+
+.blueText{
+  color:#996699;
+}
+
+footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexContainer {
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content:  space-around;
+
+
+}
 html {
     color: #222;
     font-size: 1em;
